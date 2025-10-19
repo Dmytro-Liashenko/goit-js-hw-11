@@ -1,5 +1,5 @@
 import axios from "axios";
-const key = import.meta.env.VITE_PIXABAY_API_KEY;
+const key = "52826967-21134cff4c4a1edd285b3f00c";
 export function getImagesByQuery(query){
     return axios.get("https://pixabay.com/api/", {
         params:{
